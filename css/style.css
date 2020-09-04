@@ -566,3 +566,20 @@ footer p {
     margin: 0;
     font-weight: 700;
 }
+
+
+
+
+form {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+form input, form button, form label {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
